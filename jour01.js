@@ -7,3 +7,8 @@ var testLength = "I'm very long !";
 console.log(testLength.length);
 var food = "croissant is meh";
 console.log(food.replace("meh", "so good"));
+var basic = "This is Cool";
+var basicUp = "basic";
+console.log(basicUp.toUpperCase());
+var basicDown = "basic";
+console.log(basicUp.toLocaleLowerCase());
