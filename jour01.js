@@ -1,27 +1,27 @@
-// Hello world:
+// 1 Hello world:
 console.log("Hello World !");
 
 
-// testing my name :
+// 2 testing my name :
 var test = "My name is Ahmed";
 console.log(test);
 
 
-// testing my name again :
+// 3 testing my name again :
 var name = "Ahmed";
 console.log("Nice to meet you " + name);
 
-// testing the lenght :
+// 4 testing the lenght :
 var testLength = "I'm very long !";
 console.log(testLength.length);
 
 
-// replacement words:
+// 5 replacement words:
 var food = "croissant is meh";
 console.log(food.replace("meh", "so good"));
 
 
-// testing upper and lower case:
+// 6 testing upper and lower case:
 var basic = "This is Cool";
 console.log(basic);
 var basicUp = "basic";
@@ -29,7 +29,12 @@ console.log(basicUp.toUpperCase());
 var basicDown = "basic";
 console.log(basicUp.toLocaleLowerCase());
 
-// Split words :
+// 7 Split words :
 var word = "banana";
 var letters = word.split('');
 console.log(letters);
+
+// 8 Template :
+var age = "29";
+var template = "i'm " + age + " years old";
+console.log(template);
