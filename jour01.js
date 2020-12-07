@@ -5,3 +5,5 @@ var name = "Ahmed";
 console.log("Nice to meet you " + name);
 var testLength = "I'm very long !";
 console.log(testLength.length);
+var food = "croissant is meh";
+console.log(food.replace("meh", "so good"));
