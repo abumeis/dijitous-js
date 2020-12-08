@@ -66,8 +66,10 @@ if (password.length > 5 && score >= limit) {
     console.log("Nothing is good");
 }
 
-//   Bonus I 
-var random = 3;
+
+var min = 1;
+var max = 6;
+var random = Math.floor(Math.random() * (max - min + 1) + min);
 if (random == 6) {
     console.log("Yes I win ");
 } else {
