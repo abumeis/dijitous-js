@@ -66,7 +66,7 @@ if (password.length > 5 && score >= limit) {
     console.log("Nothing is good");
 }
 
-
+// Bonus
 var min = 1;
 var max = 6;
 var random = Math.floor(Math.random() * (max - min + 1) + min);
@@ -74,4 +74,23 @@ if (random == 6) {
     console.log("Yes I win ");
 } else {
     console.log("So close");
+}
+
+// Bonus II
+var month = "August";
+switch (month) {
+    case "December", "January", "February":
+        console.log("Winter");
+        break;
+    case "March", "April", "May":
+        console.log("Spring");
+        break;
+    case "June", "July", "August":
+        console.log("Summer");
+        break;
+    case "September", "October", "November":
+        console.log("Fall");
+        break;
+    default:
+        console.log("That's not a season...");
 }
