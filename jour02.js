@@ -41,10 +41,18 @@ if (test > bis) {
 }
 
 // 06 - Condition
-var limit = 10;
+var limit = 50;
 var score = 64;
 if (score >= limit) {
     console.log("OK good");
 } else {
-    console.log("Oh nooooooooo")
+    console.log("Oh nooooooooo");
+}
+
+
+var password = "azerty";
+if (password.length > 5) {
+    console.log("Password is secured");
+} else {
+    console.log("Password is not secured");
 }
