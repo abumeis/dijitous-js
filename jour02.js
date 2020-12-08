@@ -29,3 +29,13 @@ console.log(test * bis);
 console.log(test / bis);
 console.log(test ** bis);
 console.log(test % bis);
+
+
+//## 05 - Comparaison
+var test = 143;
+var bis = 219;
+if (test > bis) {
+    console.log("true");
+} else {
+    console.log("false");
+}
