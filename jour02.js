@@ -65,3 +65,11 @@ if (password.length > 5 && score >= limit) {
 } else {
     console.log("Nothing is good");
 }
+
+//   Bonus I 
+var random = 3;
+if (random == 6) {
+    console.log("Yes I win ");
+} else {
+    console.log("So close");
+}
