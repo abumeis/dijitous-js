@@ -77,20 +77,28 @@ if (random == 6) {
 }
 
 // Bonus II
-var month = "August";
+var month = "July";
 switch (month) {
-    case "December", "January", "February":
+    case "December":
+    case "January":
+    case "Febrary":
         console.log("Winter");
         break;
-    case "March", "April", "May":
+    case "March":
+    case "April":
+    case "May":
         console.log("Spring");
         break;
-    case "June", "July", "August":
+    case "June":
+    case "July":
+    case "August":
         console.log("Summer");
         break;
-    case "September", "October", "November":
+    case "September":
+    case "October":
+    case "November":
         console.log("Fall");
         break;
     default:
-        console.log("That's not a season...");
+        console.log("That's not a MONTH...");
 }
