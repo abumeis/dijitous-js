@@ -49,10 +49,19 @@ if (score >= limit) {
     console.log("Oh nooooooooo");
 }
 
-
+//## 07 - Condition II
 var password = "azerty";
 if (password.length > 5) {
     console.log("Password is secured");
+}
+
+
+// 08 - Condition III 
+
+if (password.length > 5 && score >= limit) {
+    console.log("Everything is good");
+} else if (password.length > 5 || score <= limit) {
+    console.log("Something is good");
 } else {
-    console.log("Password is not secured");
+    console.log("Nothing is good");
 }
