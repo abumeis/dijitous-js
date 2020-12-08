@@ -23,11 +23,10 @@ console.log(food.replace("meh", "so good"));
 
 // 6 testing upper and lower case:
 var basic = "This is Cool";
-console.log(basic);
-var basicUp = "basic";
-console.log(basicUp.toUpperCase());
-var basicDown = "basic";
-console.log(basicUp.toLocaleLowerCase());
+var basicUp = basic.toUpperCase();
+console.log(basicUp);
+var basicDown = basic.toLowerCase();
+console.log(basicDown);
 
 // 7 Split words :
 var word = "banana";
