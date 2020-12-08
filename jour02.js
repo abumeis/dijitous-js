@@ -39,3 +39,12 @@ if (test > bis) {
 } else {
     console.log("false");
 }
+
+// 06 - Condition
+var limit = 10;
+var score = 64;
+if (score >= limit) {
+    console.log("OK good");
+} else {
+    console.log("Oh nooooooooo")
+}
