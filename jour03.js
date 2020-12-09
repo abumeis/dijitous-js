@@ -19,3 +19,6 @@ console.log(objects);
 
 
 // 04 - Order
+var number = [4, 10, 8, 12, 6];
+console.log(number.reverse());
+console.log(number.sort((a, b) => a - b));
