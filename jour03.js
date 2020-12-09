@@ -12,7 +12,10 @@ console.log(ingredients.indexOf("butter"));
 //03 - Add and Remove
 var objects = ["pen", "book", "lamp"];
 objects.unshift("chair");
-objects.pop("lamp");
+objects.pop();
 objects.push("laptop");
 objects.shift();
 console.log(objects);
+
+
+// 04 - Order
