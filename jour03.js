@@ -22,3 +22,15 @@ console.log(objects);
 var number = [4, 10, 8, 12, 6];
 console.log(number.reverse());
 console.log(number.sort((a, b) => a - b));
+
+
+
+
+
+//06 - Boucle
+var sentence = "Hello Konexio!";
+var reverse = "";
+for (var i = sentence.length - 1; i >= 0; i--) {
+    reverse = reverse + sentence[i];
+}
+console.log(reverse);
