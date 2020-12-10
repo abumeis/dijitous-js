@@ -1,6 +1,7 @@
 // 01 - Array
 var fruits = ["mango", "lemon", " blueberry"];
 console.log(fruits);
+console.table(fruits);
 
 
 //02 - Access
@@ -58,10 +59,10 @@ for (i = 1; i <= 100; i++) {
         console.log(i);
     }
 }
-//Bonus
+//Bonus III
 
 var promo4 = ["Ahmed", "Atif", "Hamada", "Allan", "Xav", "Seb", "Kitty", "Thi", "Nico", "EWA", "Bah", "Hassan", ];
 var randomName = promo4[Math.floor(Math.random() * promo4.length)];
 
-
+console.table(promo4)
 console.log(randomName)
