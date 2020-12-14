@@ -57,6 +57,8 @@ if (password.length > 5) {
 
 
 // 08 - Condition III 
+console.log(score >= limit);
+console.log(password.length > 5);
 
 if (password.length > 5 && score >= limit) {
     console.log("Everything is good");
@@ -101,4 +103,12 @@ switch (month) {
         break;
     default:
         console.log("That's not a MONTH...");
+
+}
+
+var min = 1;
+var max = 6;
+for (var i = 1; i <= 6; i++) {
+    var dice = Math.floor(Math.random() * (max - min + 1) + min);
+    console.log(dice);
 }

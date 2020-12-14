@@ -46,7 +46,7 @@ console.log(total);
 var sentence = "Hello Konexio!";
 var reverse = "";
 for (var i = sentence.length - 1; i >= 0; i--) {
-    reverse = reverse + sentence[i];
+    reverse = reverse + sentence.charAt(i);
 }
 console.log(reverse);
 
@@ -61,6 +61,8 @@ for (i = 1; i <= 100; i++) {
         console.log("buzz");
     } else if (i % 3 == 0) {
         console.log("fizz");
+    } else if (i % 7 === 0) {
+        console.log();
     } else {
         console.log(i);
     }
@@ -71,4 +73,19 @@ var promo4 = ["Ahmed", "Atif", "Hamada", "Allan", "Xav", "Seb", "Kitty", "Thi", 
 var randomName = promo4[Math.floor(Math.random() * promo4.length)];
 
 console.table(promo4)
-console.log(randomName)
+console.log(randomName);
+
+
+
+
+
+
+
+
+
+var min = 1;
+var max = 10;
+for (var i = 0; i <= 10; i++) {
+    var dice = min + i * (max - min + 1);
+    console.log(dice);
+}

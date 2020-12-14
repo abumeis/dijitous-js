@@ -37,3 +37,19 @@ console.log(letters);
 var age = "29";
 var template = "i'm " + age + " years old";
 console.log(template);
+
+
+
+
+
+
+
+//Bonus
+
+var total = 0;
+var limit = 10;
+while (total <= 10) {
+    total = 0 + (total++);
+
+    console.log(total);
+}
