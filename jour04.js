@@ -4,23 +4,16 @@
 //Affichez la valeur de `age` dans la console
 //À l'aide d'une condition, affichez "So cute !" si la valeur de `isCute` est `true`
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+var cat = {
+    name: "Garfield",
+    age: 3,
+    isCute: true,
+}
+console.log(cat);
+console.log("age", cat.age);
+if (cat.isCute == true) {
+    console.log(cat.isCute, "So cute !");
+}
 
 
 //## 02 - Combine
@@ -30,6 +23,24 @@
 //Créez une variable `cats` qui contient un tableau contenant les variables `cat` et `cat2`
 //Affichez la valeur de `age` de `cat` dans la console
 //Affichez la valeur de `isCute` de `cat2` dans la console
+
+var cat2 = {
+    name: "lolo",
+    age: 2,
+    isCute: false,
+}
+var cats = [cat, cat2];
+console.table(cats);
+console.log(cat.age);
+console.log(cat2.isCute);
+
+
+
+
+
+
+
+
 
 
 
