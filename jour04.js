@@ -11,7 +11,7 @@ var cat = {
 }
 console.log(cat);
 console.log("age", cat.age);
-if (cat.isCute == true) {
+if (cat.isCute === true) {
     console.log(cat.isCute, "So cute !");
 }
 
@@ -50,7 +50,6 @@ function checkIfEven(num) {
         console.log("odd");
 }
 checkIfEven(17);
-console.log(checkIfEven);
 
 
 
@@ -62,15 +61,15 @@ console.log(checkIfEven);
 // "both are the same" si ils sont égaux
 //Appelez votre fonction plusieurs fois avec des chiffres différents pour vérifier les résultats
 function compare(num, num2) {
-    if (num > num2)
+    if (num > num2) {
         console.log("`num1` is bigger");
-    else if (num < num2)
+    } else if (num < num2) {
         console.log("`num2` is bigger");
-    else
+    } else {
         console.log("both are the same")
+    }
 }
 compare(100, 100);
-console.log(compare);
 
 
 
@@ -80,6 +79,18 @@ console.log(compare);
 //À l'aide d'une boucle, ajouter les chiffres de 1 à `num`
 //Appelez votre fonction avec le chiffre 12 et vérifiez que vous obtenez 78
 
+function addUp(num) {
+    for (var i = 0; i <= 78; i++) {
+        num = i
+    };
+    console.log(num)
+    return num;
+
+
+}
+addUp(12);
+
+
 
 
 
@@ -88,6 +99,20 @@ console.log(compare);
 //Créez une fonction `format` qui reçoit un paramètre `num` qui représente des secondes
 //Faites en sorte que la fonction retourne un format `heures : minutes : secondes`
 //Appelez votre fonction avec l'argument `3700` et vérifiez que vous obtenez `1:1:40`
+
+function timeConvert(num) {
+    var secondes = num;
+    var hours = Math.floor(secondes / 3600);
+    var minutes = Math.floor((secondes - (hours * 3600)) / 60);
+    var seconds = secondes - (hours * 3600) - (minutes * 60);
+
+    return hours + "h:" + minutes + "m:" + seconds + "s";
+}
+
+console.log(timeConvert(3700));
+
+
+
 
 
 //  Bonus
