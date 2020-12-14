@@ -54,9 +54,6 @@ console.log(checkIfEven);
 
 
 
-
-
-
 // 04 - Compare
 //Créez une fonction `compare` qui reçoit deux paramètres `num` et `num2`
 //Dans la fonction, à l'aide d'une condition, affichez selon les cas :
@@ -64,7 +61,16 @@ console.log(checkIfEven);
 //"`num2` is bigger" si `num2` est plus grand
 // "both are the same" si ils sont égaux
 //Appelez votre fonction plusieurs fois avec des chiffres différents pour vérifier les résultats
-
+function compare(num, num2) {
+    if (num > num2)
+        console.log("`num1` is bigger");
+    else if (num < num2)
+        console.log("`num2` is bigger");
+    else
+        console.log("both are the same")
+}
+compare(100, 100);
+console.log(compare);
 
 
 
