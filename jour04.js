@@ -44,7 +44,7 @@ console.log(cat2.isCute);
 
 
 function checkIfEven(num) {
-    if (num % 2 == 0)
+    if (num % 2 === 0)
         console.log("even");
     else
         console.log("odd");
@@ -80,15 +80,16 @@ compare(100, 100);
 //Appelez votre fonction avec le chiffre 12 et vérifiez que vous obtenez 78
 
 function addUp(num) {
-    for (var i = 0; i <= 78; i++) {
-        num = i
+    var sum = 0
+    for (var i = 1; i <= num; i++) {
+        sum += i
     };
-    console.log(num)
-    return num;
-
+    console.log(sum)
 
 }
 addUp(12);
+addUp(13);
+
 
 
 
@@ -100,7 +101,7 @@ addUp(12);
 //Faites en sorte que la fonction retourne un format `heures : minutes : secondes`
 //Appelez votre fonction avec l'argument `3700` et vérifiez que vous obtenez `1:1:40`
 
-function timeConvert(num) {
+function format(num) {
     var secondes = num;
     var hours = Math.floor(secondes / 3600);
     var minutes = Math.floor((secondes - (hours * 3600)) / 60);
@@ -109,8 +110,7 @@ function timeConvert(num) {
     return hours + "h:" + minutes + "m:" + seconds + "s";
 }
 
-console.log(timeConvert(3700));
-
+console.log(format(700000));
 
 
 
@@ -122,7 +122,28 @@ console.log(timeConvert(3700));
 //Le mot de passe contiendra uniquement des lettres majuscules
 //Si `num` est plus petit que 6 et plus grand que 15, la fonction retourne "error"
 
+function randomPassword(num) {
+    var chars = "abcdefghijklmnopqrstuvwxyz!@#$%^&*()-+<>ABCDEFGHIJKLMNOP1234567890";
+    num = chars;
 
+    if (Number(length)) {
+        length = Number(length)
+    } else {
+        return console.error("Enter a valid length for the first argument.")
+    }
+
+
+
+
+    for (var i = 0; x < length; x++) {
+        var i = Math.floor(Math.random() * chars.length);
+        pass += chars.charAt(i);
+
+    }
+    return pass;
+}
+
+console.log(pass)
 
 //Bonus II
 

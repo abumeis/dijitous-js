@@ -5,16 +5,21 @@
 //Vous devrez donner l'argument dans le terminal en appelant le programme
 //Si vous ne donnez pas d 'argument, le programme doit afficher "error" dans la console
 
-function multiply(num1) {
-    var i = "";
-    for (var i = 1; i <= 10; i++) {
-        console.log(num1 * i);
-    }
-
-
-}
+var { multiply, addition, } = require("./table-utils.js");
+multiply()
 if (process.argv.length === 3) {
     (multiply(process.argv[2]));
 } else {
     console.log("error");
+}
+
+
+
+addition(); {
+
+    if (process.argv.length === 3) {
+        (addition(process.argv[2]));
+    } else {
+        console.log("error");
+    }
 }
