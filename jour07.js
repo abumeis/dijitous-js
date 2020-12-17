@@ -4,6 +4,8 @@
 //Ne pas utilisez la méthode .sort()
 //Appelez votre fonction avec "konexio" comme argument et vérifiez que vous obtenez "eiknoox"
 
+const { reverse } = require("dns");
+
 
 function sortLetters(str) {
     return str.split('').sort().join('');
@@ -77,3 +79,22 @@ function checkPalindrom(str) {
 
 
 checkPalindrom('laptop');
+
+
+
+///## 04 - Swap
+//Créez une fonction `swap` qui reçoit une string en paramètre
+//La fonction retourne une string avec la casse inverse : une majuscule deviendra minuscule et vice-versa
+//Appelez votre fonction avec l'argument "Hello World" et vérifiez que vous obtenez "hELLO wORLD"
+function swap(str) {
+    var reverse = '';
+    for (var i = 0; i < str.length; i++) {
+        if (str[i].toLowerCase() == str[i]) {
+            reverse += str[i].toUpperCase();
+        } else {
+            reverse += str[i].toLowerCase();
+        }
+    }
+    return reverse;
+}
+console.log(swap('Hello World '))
