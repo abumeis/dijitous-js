@@ -97,4 +97,17 @@ function swap(str) {
     }
     return reverse;
 }
-console.log(swap('Hello World '))
+console.log(swap('Hello World '));
+
+
+
+//Créez une fonction `makeItSpongeBob` qui reçoit une string en paramètre
+//La fonction retourne une string avec le même texte en alternant majuscule / minuscule
+//Appelez votre fonction avec l'argument "Javascript is easy" et vérifiez le résultat
+
+
+//with the regex
+function makeItSpongeBob(str) {
+    return str.replace(/\w(.|$)/g, s => s[0].toUpperCase() + (s[1] ? s[1].toLowerCase() : ''));
+}
+console.log(makeItSpongeBob('Javascript is easy '));
