@@ -40,3 +40,40 @@ function countEach(str) {
 
 };
 countEach("xxxoooox");
+
+
+//03 - Palindrome
+//Créez une fonction `checkPal` qui reçoit une string en paramètre
+//La fonction retourne "Palindrome !" si le mot se lit dans les deux sens, sinon elle retourne "Nope"
+//Vérifiez que vous obtenez un positif avec l'argument "racecar" mais pas avec "laptop"
+
+function checkPalindrom2(str) {
+    //first solution
+
+    var word = str.split("").reverse().join("");
+    if (word === str) {
+        console.log('Palindrome!');
+    } else {
+        console.log('NOPE!');
+    }
+}
+checkPalindrom2('racecar');
+
+
+//2em solution
+function checkPalindrom(str) {
+    var word = true;
+    for (var i = 0; i <= str.length - 1; i++) {
+        if (str[i] !== str[str.length - i - 1]) {
+            word = false;
+        }
+    }
+    if (word == false) {
+        console.log('Nope!');
+    } else {
+        console.log('Palindrome!');
+    }
+}
+
+
+checkPalindrom('laptop');
