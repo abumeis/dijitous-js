@@ -1,0 +1,52 @@
+#line {
+    width: auto;
+    height: 10px;
+    transition: opacity 500ms linear, transform 6s ease-out;
+    transform-origin: 0 0;
+    transition-timing-function: cubic-bezier(0.1, 0.1, 0.0, 1.0);
+    background: #cb3837;
+    margin: 0%;
+    padding: 0%;
+}
+
+#blockBg {
+    width: auto;
+    height: 800px;
+    background-image: url(https://static.npmjs.com/attachments/ck3uwvv67mydydr74ea00ip4j-bg-stripes.png);
+    background-size: cover;
+}
+
+#blockBg h1 {
+    text-align: center;
+    color: white;
+    font-family: Poppins, sans-serif;
+    font-weight: 800;
+}
+
+#blockBg h3 {
+    text-align: center;
+    color: white;
+    font-family: Poppins, sans-serif;
+    font-weight: 800;
+}
+
+#third-B_BG {
+    width: auto;
+    height: 800px;
+    background-image: url(https://static.npmjs.com/attachments/ck3uwg3a8731988744oecrjxu-weloveopensource-bg-800-2x.png);
+    background-size: cover;
+}
+
+#third-B_BG h1 {
+    text-align: center;
+    color: white;
+    font-family: Poppins, sans-serif;
+    font-weight: 800;
+}
+
+#third-B_BG h3 {
+    text-align: center;
+    color: white;
+    font-family: Poppins, sans-serif;
+    font-weight: 800;
+}
