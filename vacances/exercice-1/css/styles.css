@@ -1,0 +1,100 @@
+body,
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+#line {
+    width: auto;
+    height: 10px;
+    transition: opacity 500ms linear, transform 6s ease-out;
+    transform-origin: 0 0;
+    transition-timing-function: cubic-bezier(0.1, 0.1, 0.0, 1.0);
+    background: #cb3837;
+    margin: 0%;
+    padding: 0%;
+}
+
+#fist-block {
+    width: auto;
+    background-image: url(https://static.npmjs.com/attachments/ck3uwvv67mydydr74ea00ip4j-bg-stripes.png);
+    background-size: cover;
+    padding: 100px;
+}
+
+#fist-block h1 {
+    text-align: center;
+    color: white;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    font-size: 100px;
+}
+
+#fist-block h2 {
+    text-align: center;
+    color: rgb(247, 239, 239);
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+#fist-block p {
+    text-align: center;
+    color: rgb(247, 239, 239);
+    font-family: Poppins, sans-serif;
+}
+
+#second-block h2 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+#second-block P {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Poppins, sans-serif;
+}
+
+.third-bg {
+    width: auto;
+    height: 400px;
+    background-image: url(https://static.npmjs.com/attachments/ck3uwg3a8731988744oecrjxu-weloveopensource-bg-800-2x.png);
+    background-size: cover;
+    padding: 100px;
+}
+
+.third-bg h2 {
+    text-align: center;
+    color: white;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.third-bg p {
+    text-align: center;
+    color: white;
+    font-family: Poppins, sans-serif;
+}
+
+#fourth-block h2 {
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+header ul {
+    list-style-type: none;
+    padding: 0%;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0%;
+}
