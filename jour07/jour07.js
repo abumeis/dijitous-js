@@ -14,7 +14,7 @@ fs.readFile("./jour07.txt", function(error, data) {
 //Affichez les valeurs de `double` dans la console
 
 var array = [1, 2, 3, 4, 5];
-var double = dob.map(function(element) {
+var double = array.map(function(element) {
     return element * 2
 });
 console.log(double)
@@ -40,3 +40,8 @@ var longName = [{
         lastName: "Smith"
     }
 ]
+var shortNames = longName.map(function(element) {
+    return element.firstName + (" ") + element.lastName
+
+})
+console.log(shortNames);
