@@ -57,3 +57,18 @@ var number = array.filter(function(element) {
     return (parseInt(element) === element);
 });
 console.log(number);
+
+
+// 05 - Filter Even
+
+//Créez une variable `numbers` contenant un tableau qui contiendra les valeurs `1`, `2`, `3`, `4`, `5`, `6`, `7` et `8`
+//Créez une variable `even` qui appellera la méthode `.filter()` pour contenir les nombres **pairs** de `numbers`
+//Affichez les valeurs de `even` dans la console
+
+var number = [1, 2, 3, 4, 5, 6, 7, 8];
+var evens = number.filter(function(element) {
+    if (element % 2 === 0) {
+        return element;
+    }
+})
+console.log(evens);
