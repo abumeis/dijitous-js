@@ -15,3 +15,14 @@ request.get("https://restcountries.eu/rest/v1/all", function(error, response, bo
     }
     console.log(countriesNames.toString());
 })
+
+
+
+//À l'aide de l'api suivante (lisez bien la documentation) : [https://api.chucknorris.io/](https://api.chucknorris.io/)
+
+//Créez une fonction asynchrone `getFact` qui récupèrera une blague Chuck Norris aléatoire à chaque fois que la fonction est lancée, et qui l'affichera dans la console
+
+request.get("https://api.chucknorris.io/jokes/random", function(error, response, body) {
+    var jokes = JSON.parse(body);
+    console.log(jokes.value)
+})
